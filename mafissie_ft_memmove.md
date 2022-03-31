@@ -1,3 +1,6 @@
+# 1 minute pour comprendre ft_memmove(); 
+## par Maxime
+
 ```c
 #include <stdlib.h>
 #include <stddef.h>
@@ -28,6 +31,7 @@ Vous pouvez compiler ce code source depuis chez vous
 
 C'est un exemple assez rudimentaire, voir barbare mais c'est pour éclairer un peu les choses.
 Voici le résultat :
+
 ```c
 s1 = [123456789]
 s2 = [456789]
@@ -38,15 +42,16 @@ s1[3] = [1]
 s1[4] = [2]
 s1[5] = [3]
 ```
-Boucle infini !
+
+**Boucle infini !**
 Mais pourquoi ?
-Le soucis ici c'est que l'adresse de s1[3] se voit relié a l'adresse s1[0];
+Le soucis ici c'est que l'adresse de s1[3] se voit reliée à l'adresse s1[0];
 Le signe '=' permet à la fois de changer une valeur mais aussi de voyager entre les pointeurs. 
-Dans cette exemple on est redirigé au début.
-Si nous avions copié en partant de la fin nous n'aurions pas eu de probleme !
+Dans cet exemple on est redirigé au début.
+Si nous avions copié en partant de la fin nous n'aurions pas eu de problème !
 
 ```c
 for (int i = ft_strlen(av[1]) - 1; i >= 0; i--)
 ```
 
-La regle est donc simple, si les adresses d'une variable peuvent se chevaucher et que l'on veux la copier, il faut impativement partir de la fin... 
+La règle est donc simple, si les adresses d'une variable peuvent se chevaucher et que l'on veux la copier, il faut impérativement partir de la fin... 

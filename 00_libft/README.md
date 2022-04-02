@@ -38,7 +38,7 @@
 - [ ] putendl_fd
 - [ ] putnbr_fd
 
-### extra
+### bonus
 - [ ] structure s_list
 - [ ] t_list
 - [ ] ft_lstnew
@@ -51,22 +51,12 @@
 - [ ] ft_lstiter
 - [ ] ft_lstmap
 
-### testers
-* python libft tester inspirations:
-    * https://github.com/jtoty/Libftest
-        * version plus recente: https://github.com/y3ll0w42/libft-war-machine/
-    * https://github.com/alelievr/libft-unit-test
-    * https://github.com/Tripouille/libftTester
-    * https://github.com/t0mm4rx/libftdestructor
 
-### Notes
-* memmove & memcpy
-
-* strlcpy and strlcat with :
-    * https://www.sudo.ws/todd/papers/strlcpy.html
-    * https://linux.die.net/man/3/strlcat
-    * https://linux.die.net/man/3/strlcpy
-    * https://c-for-dummies.com/blog/?p=3896
-    * https://www.kernel.org/doc/htmldocs/kernel-api/API-strlcpy.html
-    * https://www.kernel.org/doc/htmldocs/kernel-api/API-strlcat.html
-
+### extra
+- [ ] strcpy
+- [ ] strncpy
+- [ ] strcat
+- [ ] strncat
+- [ ] putchar
+- [ ] putstr
+- [ ] putnbr

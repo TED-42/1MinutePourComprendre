@@ -144,7 +144,12 @@ Nous ajoutons ensuite la configuration du fichier launch.json pour lancer le deb
 
 ## Debugger !
 
-Nous avons maintenant configuré VSCode et nous devrions avoir le debugger prêt. Si on le lance et rien ne se passe sans message d'erreur, c'est que tout se passe bien.
+Nous avons maintenant configuré VSCode et nous devrions avoir le debugger prêt. Si on le lance (F5) et rien ne se passe sans message d'erreur, c'est que tout se passe bien.
 
+![Debugger Ready!](04.png "Debugger Ready!")
 
-![Debugger Ready!](03.png "Debugger Ready!")
+À partir de là il est possible d'ajouter manuellement des breakpoints et des variables à surveiller (Watch) et de lancer le debugger puis d'avancer par étapes (F10) en utilisant VSCode. 
+
+![Debugger Power!](05.png "Debugger Power!")
+
+Il reste beaucoup à découvrir, mais cela reste un premier pas utile.

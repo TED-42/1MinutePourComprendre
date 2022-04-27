@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "compilation",
+			"command": "make",
+            "args": ["debug"],
+			"type": "shell",
+			"options": {
+                "cwd": "${fileDirname}"
+			}
+		}
+	]
+}

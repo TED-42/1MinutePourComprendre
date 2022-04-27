@@ -1,2 +1,2 @@
 debug:
-	gcc -g main.c function1.c function2.c
+	gcc -g main.c function_a.c function_z.c

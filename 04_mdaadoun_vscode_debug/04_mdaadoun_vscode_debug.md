@@ -16,15 +16,18 @@ Ne pas oublier de **compiler avec le flag -g dans une règle du Makefile.** (Pen
 
 #### main.c
 ```c
-#ifndef HEADER_H
-# define HEADER_H
+#include "header.h"
 
-# include <unistd.h>
+int main(void)
+{
+	char c;
 
-void print_a(char c);
-void print_z(char c);
-
-#endif
+	c = 'z';
+	print_a(c);
+	c = 'a';
+	print_z(c);
+	return (0);
+}
 ```
 
 #### function_a.c

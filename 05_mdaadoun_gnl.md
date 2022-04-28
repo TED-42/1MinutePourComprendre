@@ -39,4 +39,4 @@ La fonction get_nex_line réalise ensuite ces étapes:
 	* Si la lecture n'a plus rien à lire ou si il y'a un problème (mauvais file descriptor...) on retourne **ligne** ou **NULL** selon le cas.
 4. Finalement, ajoute le residu du **tampon** (bytes aprés le premier \n non ajouté à ligne) dans sauvegarde avant de retourner **ligne**
 
-Voilà, ce n'est certainement pas la seule ni la meilleure solution, mais cette description est un exemple pour comprendre GNL, bon courage pour votre implementation personnelle.
+Voilà, ce n'est certainement pas la seule ni la meilleure approche, mais cette description est un exemple pour comprendre ce qui est attendu avec GNL, un exemple est interessant à croiser avec d'autres exemples, bon courage pour votre implementation personnelle.

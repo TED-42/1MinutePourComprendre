@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+
 int    main(int ac, char **av)
 {
     (void)ac;
@@ -43,9 +44,9 @@ s1[4] = [2]
 s1[5] = [3]
 ```
 
-**Boucle infini !**
+**Boucle infinie !**
 Mais pourquoi ?
-Le soucis ici c'est que l'adresse de s1[3] se voit reliée à l'adresse s1[0];
+Le souci ici c'est que l'adresse de s1[3] se voit reliée à l'adresse s1[0];
 Le signe '=' permet à la fois de changer une valeur mais aussi de voyager entre les pointeurs. 
 Dans cet exemple on est redirigé au début.
 Si nous avions copié en partant de la fin nous n'aurions pas eu de problème !

@@ -67,4 +67,4 @@ Les cas d'erreurs du au malloc/free :
 // Not '\0' memory unitialised is bad
     return (0);
 ```
-Ca devrai vous éclairer ! 
+Ça devrait vous éclairer ! 

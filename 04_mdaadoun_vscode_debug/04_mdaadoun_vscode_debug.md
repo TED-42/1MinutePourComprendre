@@ -12,7 +12,7 @@ Voici les fichiers que nous allons utiliser en exemple:
 
 ![Fichiers d'exemple](01.png "Fichiers d'exemple")
 
-Ne pas oublier de **compiler avec le flag -g dans une règle du Makefile.** (Penser a compiler toutes le sources avec ce flag, une librairie .a non recompilé ne sera pas repéré dans gdb)
+Ne pas oublier de **compiler avec le flag -g dans une règle du Makefile.** (Pensez a compiler toutes les sources avec ce flag, une librairie .a non recompilé ne sera pas repéré dans gdb)
 
 #### main.c
 ```c

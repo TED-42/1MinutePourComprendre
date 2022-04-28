@@ -1,8 +1,8 @@
 # 1 minute pour comprendre Get Next Line
 
-L'objectif ici est de présenter une approche algorithmique basique en pseudo code pour avoir un angle de vue sur la résolution de ce projet.  
+L'objectif ici est de présenter une approche algorithmique brute en pseudo code pour avoir un angle de vue alternatif sur ce projet. 
 
-Cela permettra de comprendre d'une autre façon le sujet, l'implementation rélle en C, le style et l'approche de ses algorithmes personnels reste à l'initiative de chacun puisque c'est dans cette recherche que l'apprentissage réel se fait. 
+Cela permettra de comprendre le sujet par croisement de source tandis que l'implementation rélle en C, le style et l'approche algorithmique fine reste à l'initiative de chacun puisque c'est dans cette recherche que l'apprentissage réel se fait, moins dans un temps trop important passé à comprendre ce qui est attendu.
 
 ## Présentation
 
@@ -39,4 +39,4 @@ La fonction get_nex_line réalise ensuite ces étapes:
 	* Si la lecture n'a plus rien à lire ou si il y'a un problème (mauvais file descriptor...) on retourne **ligne** ou **NULL** selon le cas.
 4. Finalement, ajoute le residu du **tampon** (bytes aprés le premier \n non ajouté à ligne) dans sauvegarde avant de retourner **ligne**
 
-Voilà, ce n'est certainement pas la seule ni la meilleure approche, mais cette description est un exemple pour comprendre ce qui est attendu avec GNL, un exemple est interessant à croiser avec d'autres exemples, bon courage pour votre implementation personnelle.
+Voilà, ce n'est certainement pas la seule ni la meilleure approche, mais cette description est un exemple pour comprendre ce qui est attendu avec GNL, un exemple est interessant à croiser avec d'autres exemples pour comprendre plus profondément le sujet, bon courage pour votre implementation personnelle.

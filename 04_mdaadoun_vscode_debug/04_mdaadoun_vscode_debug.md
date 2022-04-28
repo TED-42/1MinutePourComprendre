@@ -1,4 +1,4 @@
-# Debugger avec Visual Studio Code
+# 1 minute pour comprendre le debugger avec Visual Studio Code
 
 Visual Studio Code (VSCode) permet une utilisation frontend du debugger gdb avec des fonctionalités simplifiées qui permettent de faire gagner en productivité.
 
